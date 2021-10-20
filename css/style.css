@@ -72,8 +72,10 @@ h3 {
     font-size: 18px
 }
 
-h4 {
-    font-size: 16px
+h4 { 
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
 }
 
 h5 {
@@ -723,7 +725,7 @@ figure figcaption, .grid figure figcaption > a  {
 }
 figure figcaption {
     padding: 10px;
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
     font-size: 1.25em;
     -webkit-backface-visibility: hidden;
@@ -760,7 +762,7 @@ figure.effect-service p {
     width: 100%;
     height: 80%;
     font-size: 14px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     margin: 0;
     font-weight: 300;
     display: none;
@@ -796,8 +798,19 @@ figure.effect-service:hover {
     border: 8px solid #e91327;
 }
 
-
-
+/*
+Price Portion
+*/
+.pricing-wrap{margin-top:38px}
+.pricing-wrap .btn-effect{background:none repeat scroll 0 0 #fff}
+.title h2{background-color:#212739;color:#fff;font-size:3em;font-weight:600;margin:0;padding:.6em 0}
+.planContainer{background-color:#f3f5f8;margin-top:10px}
+.planContainer .title h2{background-color:#212739;color:#fff;font-size:3em;font-weight:600;margin:0;padding:.6em 0}
+.planContainer .title h2.bestPlanTitle{background:#fb1b35;color:#212639}
+.planContainer .price p{background:none repeat scroll 0 0 #2a3049;color:#fff;font-size:1.2em;font-weight:500;height:2.6em;letter-spacing:3px;line-height:2.6em;margin:0 0 1em;text-transform:uppercase}.planContainer .price p.bestPlanPrice{background:#d60820;color:#212639}.planContainer .options{margin-top:30px}.planContainer .options li{color:#212639;line-height:2}.planContainer .button a{text-transform:uppercase;text-decoration:none;color:#212739;font-weight:700;line-height:2.6em;display:inline-block;width:80%;height:2.8em;margin:1.5em 0 1.8em}
+.planContainer .button a.bestPlanButton{color:#212639;background:#fb1b35}
+ul.planContainer li.title{margin-bottom:0}
+ul.slides li{margin-bottom:15px}
 /*------------------------------------------------------------------
     Gallery
 -------------------------------------------------------------------*/
@@ -1211,6 +1224,16 @@ figure.effect-service:hover {
 	font-weight: 500;
 	padding-bottom: 30px;
 }
+
+.contact-box-social{
+    padding: 10px 0px;
+    left:20px;
+}
+.disqualification-rule{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
 .cont-line{
 	overflow: hidden;
 	margin-bottom: 30px;
